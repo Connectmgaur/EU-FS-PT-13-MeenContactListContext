@@ -17,8 +17,8 @@ export function Home(){
 		<div className="d-flex flex-column">
 			{ store.contacts.map((contact, id)=>(
 				<div className="d-flex justify-content-between" id="mainContainer" >
-					<div className="container col-3" id='imgContainer'>
-						<img src="https://reqres.in/img/faces/1-image.jpg" class="img-thumbnail" alt="..."/>
+					<div className="container col-3 img-fluid w-25" id='imgContainer'>
+						<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdreamworthsolutions.com%2Fgarwarealfa%2Fstudent%2Fdist%2Fimg%2Fuser.png&f=1&nofb=1&ipt=53dcdb1e18554475ea07336bf71c09cc7d10378b52137c7cc53740b486e09124&ipo=images" class="img-thumbnail" alt="..."/>
 					</div>
 					<div className="d-flex flex-column align-items-start col-6" id='infoContainer'>
 						<h4>{contact.full_name}</h4>
