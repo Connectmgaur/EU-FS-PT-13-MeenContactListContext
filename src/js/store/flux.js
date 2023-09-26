@@ -8,7 +8,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			// Use getActions to call a function within a fuction
 			getContacts: async ()=> {
 				try {
-					const response = await fetch('https://playground.4geeks.com/apis/fake/contact/agenda/kiara')
+					const response = await fetch('https://playground.4geeks.com/apis/fake/contact/agenda/my_super_agenda')
 					const data = await response.json()
 					console.log(data)
 					setStore({

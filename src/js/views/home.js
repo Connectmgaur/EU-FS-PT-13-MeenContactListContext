@@ -11,7 +11,7 @@ export function Home(){
 		actions.deleteContact(contact.id)
 		alert(`${contact.full_name} has been deleted from your agenda`)
 	}
-	useEffect(()=>{actions.getContacts()}, [])
+	
 
 	return (
 		<div className="d-flex flex-column">

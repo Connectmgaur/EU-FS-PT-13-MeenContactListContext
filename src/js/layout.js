@@ -5,11 +5,11 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home.js";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
-import { NewForm } from "./views/NewForm";
-import { EditForm } from "./views/EditForm";
+import { NewForm } from "./views/newForm";
+import { EditForm } from "./views/editForm";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/navbar";
+import { Navbar } from "./component/Navbar";
 import { Footer } from "./component/footer";
 
 //create your first component
