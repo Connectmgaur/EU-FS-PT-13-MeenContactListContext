@@ -14,7 +14,7 @@ export function EditForm() {
         const contact = {
             "full_name": document.getElementById('inputName').value,
             "email": document.getElementById('InputEmail').value,
-            "agenda_slug": 'argelio',
+            "agenda_slug": 'meenakshi',
             "address": document.getElementById('inputAddress').value,
             "phone": document.getElementById('inputPhone').value
         }
