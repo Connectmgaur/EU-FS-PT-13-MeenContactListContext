@@ -23,11 +23,7 @@ export function NewForm(){
 
         actions.addContact(contact)
         alert('Your contact has been added')
-        document.getElementById('inputName').value = ''
-        document.getElementById('InputEmail').value = ''
-        document.getElementById('inputPhone').value = ''
-        document.getElementById('inputAddress').value = ''
-
+    
         
     }
 
